@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <script src="data.json"></script>
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="box box1">
+      <div class="box11">
+        <img src="images/image-jeremy.png" alt="">
+        <p>Report for</p>
+        <h1>Jeremy Robson</h1>
+      </div>
+      <div class="box12">
+        <p class="par">Daily</p>
+        <p class="par active">Weekly</p>
+        <p class="par">Monthly</p>
+      </div>
+    </div>
+    <div class="box box2">
+      <div class="box21">
+        <img src="images/icon-work.svg" alt="">
+      </div>
+      <div class="box22">
+        <div class="nav">
+          <p>work</p>
+          <img src="images/icon-ellipsis.svg" alt="">
+        </div>
+        <h1><span id="work-current">32</span>hrs</h1>
+        <p id="pre"><span class="last">Last Week</span>-<span id="work-late">36</span>hrs</p>
+      </div>
+    </div>
+    <div class="box box3">
+      <div class="box21">
+        <img src="images/icon-play.svg" alt="">
+      </div>
+      <div class="box22">
+        <div class="nav">
+          <p>Play</p>
+          <img src="images/icon-ellipsis.svg" alt="">
+        </div>
+        <h1><span id="play-current">10</span>hrs</h1>
+        <p id="pre"><span class="last">Last Week</span>-<span id="play-late">8</span>hrs</p>
+      </div>
+    </div>
+    <div class="box box4">
+      <div class="box21">
+        <img src="images/icon-study.svg" alt="">
+      </div>
+      <div class="box22">
+        <div class="nav">
+          <p>Study</p>
+          <img src="images/icon-ellipsis.svg" alt="">
+        </div>
+        <h1><span id="study-current">4</span>hrs</h1>
+        <p id="pre"><span class="last">Last Week</span>-<span id="study-late">7</span>hrs</p>
+      </div>
+    </div>
+    <div class="box box5">
+      <div class="box21">
+        <img src="images/icon-exercise.svg" alt="">
+      </div>
+      <div class="box22">
+        <div class="nav">
+          <p>Exercise</p>
+          <img src="images/icon-ellipsis.svg" alt="">
+        </div>
+        <h1><span id="exercise-current">4</span>hrs</h1>
+        <p id="pre"><span class="last">Last Week</span>-<span id="exercise-late">5</span>hrs</p>
+      </div>
+
+    </div>
+    <div class="box box6">
+      <div class="box21">
+        <img src="images/icon-social.svg" alt="">
+      </div>
+      <div class="box22">
+        <div class="nav">
+          <p>Social</p>
+          <img src="images/icon-ellipsis.svg" alt="">
+        </div>
+        <h1><span id="social-current">5</span>hrs</h1>
+        <p id="pre"><span class="last">Last Week</span>-<span id="social-late">10</span>hrs</p>
+      </div>
+    </div>
+    <div class="box box7">
+      <div class="box21">
+        <img src="images/icon-self-care.svg" alt="">
+      </div>
+      <div class="box22">
+        <div class="nav">
+          <p>Self Care</p>
+          <img src="images/icon-ellipsis.svg" alt="">
+        </div>
+        <h1><span id="self-current">2</span>hrs</h1>
+        <p id="pre"><span class="last">Last Week</span>-<span id="self-late">2</span>hrs</p>
+      </div>
+    </div>
+  </main>
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
